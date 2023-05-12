@@ -28,6 +28,6 @@ public class StockController {
 	
 	@GetMapping("/hello")
 	public String greet() {
-		return "Hi, This app shows stock prices";
+		return "Hi, This app shows stock prices of various companies";
 	}
 }
